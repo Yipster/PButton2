@@ -17,6 +17,20 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="Resources\poof.png"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <ImageBrush ImageSource="Resources\invertedpoof.png"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
         </Style>
         <Storyboard x:Key="ClassroomStoryboard" x:Name="ClassroomStoryboard">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ClassroomImg">
@@ -28,8 +42,8 @@
     <Canvas x:Name="Container">
         <local:GifImage x:Name="Bird" GifSource="C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\Resources\Bird.gif"  Height="247.8" Width="350" Canvas.Left="300" Canvas.Top="121.5"/>
         <Image Canvas.ZIndex="1"  x:Name="ClassroomImg" Source="empty classroom.jpg" Width="800"/>
-        <Button Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="Poof!" Height="75" Width="450.5" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="455" Canvas.Left="183">
+        <Button Canvas.ZIndex="2"  Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="" Height="121" Width="256" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="409" Canvas.Left="272">
         </Button>
-        
+
     </Canvas>
 </Window>
