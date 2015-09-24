@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/kitten-sounds.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/suzuya.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/yahallo.wav")]
 
 

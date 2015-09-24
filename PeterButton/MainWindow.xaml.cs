@@ -96,7 +96,8 @@ namespace PeterButton
         //Selects which picture to be used as the cloud
         public void picSelector(int i, cloud cloud)
         {
-            switch(i)
+            Uri uri;
+            switch (i)
             {
                 case 1:
                     cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/nexuscloud.png"));
@@ -108,10 +109,32 @@ namespace PeterButton
                     break;
                 case 3:
                     cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/catcloud.png"));
-                    Uri uri = new Uri(@"../../Resources/kitten.wav", UriKind.Relative);
+                    uri = new Uri(@"../../Resources/kitten.wav", UriKind.Relative);
                     PlaySound(uri);
                     break;
 
+                case 4:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/snoocloud.png"));
+                    break;
+
+                case 5:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/suzuyacloud.png"));
+                    uri = new Uri(@"../../Resources/Suzuya.wav", UriKind.Relative);
+                    PlaySound(uri);
+                    break;
+
+                case 6:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/yuicloud.png"));
+                    uri = new Uri(@"../../Resources/Yahallo.wav", UriKind.Relative);
+                    PlaySound(uri);
+                    break;
+                case 7:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/UX.png"));
+                    break;
+                case 8:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/pc.png"));
+                    break;
+                
             } 
         }
 
@@ -125,7 +148,7 @@ namespace PeterButton
             }
             if (i == 2)
             {
-                num = rnd.Next(1, 4);
+                num = rnd.Next(1, 9);
             }
             if (i == 3)
             {
