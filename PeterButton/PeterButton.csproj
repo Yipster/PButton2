@@ -159,6 +159,7 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\thoughtbubble.png" />
     <Resource Include="Resources\Bird2.gif" />
     <Resource Include="Resources\pc.png" />
     <Content Include="Resources\Suzuya.wav" />
