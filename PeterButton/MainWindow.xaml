@@ -44,6 +44,7 @@
         <Image Canvas.ZIndex="1"  x:Name="ClassroomImg" Source="empty classroom.jpg" Width="1280" Height="720"/>
         <Button Canvas.ZIndex="2"  Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="" Height="194" Width="411" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="726" Canvas.Left="436">
         </Button>
+        <Rectangle x:Name="underlay" Fill="#FFFFFEEC" Height="200" Canvas.Left="-5" Stroke="Black" Canvas.Top="720" Width="1285"/>
 
     </Canvas>
 </Window>
