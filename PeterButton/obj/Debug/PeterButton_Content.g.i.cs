@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/invertedpoof.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/poof.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/kitten-sounds.mp3")]
 
 

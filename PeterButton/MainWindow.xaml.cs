@@ -34,6 +34,7 @@ namespace PeterButton
             var sb = this.Resources["ClassroomStoryboard"];
             s = sb as Storyboard;
             s.Begin();
+
             makeCloud(cloud1);
             helper(cloud2);
         }
@@ -84,6 +85,13 @@ namespace PeterButton
             
         }
 
+        private void PlaySound(Uri source)
+        {
+            Uri uri = source;
+            var player = new MediaPlayer();
+            player.Open(uri);
+            player.Play();
+        }
 
         //Selects which picture to be used as the cloud
         public void picSelector(int i, cloud cloud)
@@ -92,12 +100,16 @@ namespace PeterButton
             {
                 case 1:
                     cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/nexuscloud.png"));
+                    
                     break;
                 case 2:
                     cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/honkscloud.png"));
+                    
                     break;
                 case 3:
                     cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/catcloud.png"));
+                    Uri uri = new Uri(@"../../Resources/kitten.wav", UriKind.Relative);
+                    PlaySound(uri);
                     break;
 
             } 
@@ -113,7 +125,7 @@ namespace PeterButton
             }
             if (i == 2)
             {
-                num = rnd.Next(1, 3);
+                num = rnd.Next(1, 4);
             }
             if (i == 3)
             {
