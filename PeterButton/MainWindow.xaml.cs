@@ -156,10 +156,6 @@ namespace PeterButton
             }
             return num;
         }
-       /* private void Completed(object sender, EventArgs e)
-        {
-            Container.Children.Remove(cloud);
-            makeCloud();
-        }*/
+      
     }
 }
