@@ -33,3 +33,5 @@ C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.g.r
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.Properties.Resources.resources
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.csproj.GenerateResource.Cache
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton_Content.g.cs
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\WpfAnimatedGif.xml

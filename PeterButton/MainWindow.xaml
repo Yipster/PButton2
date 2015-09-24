@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PeterButton"
         mc:Ignorable="d"
-        Title="MainWindow" Height="530px" Width="800px" WindowStyle="None" ResizeMode="NoResize">
+        Title="MainWindow" Height="920px" Width="1280px" WindowStyle="None" ResizeMode="NoResize">
     <Window.Resources>
         <Style x:Key="MyButtonStyle" TargetType="Button">
             <Setter Property="Template">
@@ -40,9 +40,9 @@
         </Storyboard>
     </Window.Resources>
     <Canvas x:Name="Container">
-        <local:GifImage x:Name="Bird" GifSource="C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\Resources\Bird.gif"  Height="247.8" Width="350" Canvas.Left="300" Canvas.Top="121.5"/>
-        <Image Canvas.ZIndex="1"  x:Name="ClassroomImg" Source="empty classroom.jpg" Width="800"/>
-        <Button Canvas.ZIndex="2"  Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="" Height="121" Width="256" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="409" Canvas.Left="272">
+        <local:GifImage x:Name="Bird" GifSource="C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\Resources\Bird.gif"  Height="289" Width="408" Canvas.Left="862" Canvas.Top="163"/>
+        <Image Canvas.ZIndex="1"  x:Name="ClassroomImg" Source="empty classroom.jpg" Width="1280" Height="720"/>
+        <Button Canvas.ZIndex="2"  Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="" Height="194" Width="411" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="726" Canvas.Left="436">
         </Button>
 
     </Canvas>

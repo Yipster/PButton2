@@ -5,9 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PeterButton"
              mc:Ignorable="d" 
-             d:DesignHeight="100" d:DesignWidth="100">
+             d:DesignHeight="200" d:DesignWidth="200">
     <Grid>
         
-        <Image x:Name="img" Height="100"></Image>  
+        <Image x:Name="img" Height="200"></Image>  
     </Grid>
 </UserControl>

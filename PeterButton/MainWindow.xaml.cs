@@ -62,7 +62,7 @@ namespace PeterButton
         public void makeCloud(cloud cloud)
         {
             
-            DoubleAnimation da = new DoubleAnimation(-100, 800, new Duration(new TimeSpan(0, 0, RandomIntGenerator(3))));
+            DoubleAnimation da = new DoubleAnimation(-100, 1280, new Duration(new TimeSpan(0, 0, RandomIntGenerator(3))));
             Storyboard story = new Storyboard { /*RepeatBehavior = RepeatBehavior.Forever*/ };
             Storyboard.SetTargetProperty(da, new PropertyPath("(Canvas.Left)"));
             story.Children.Add(da);
@@ -144,7 +144,7 @@ namespace PeterButton
             int num = 0;
             if (i == 1)
             {
-                num = rnd.Next(0, 300);
+                num = rnd.Next(0, 500);
             }
             if (i == 2)
             {
@@ -153,6 +153,10 @@ namespace PeterButton
             if (i == 3)
             {
                 num = rnd.Next(8, 20);
+            }
+            if(i == 4)
+            {
+
             }
             return num;
         }
