@@ -1,0 +1,34 @@
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\bin\Debug\PeterButton.exe.config
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\bin\Debug\PeterButton.exe
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\bin\Debug\PeterButton.pdb
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton.csprojResolveAssemblyReference.cache
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\MainWindow.g.cs
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\App.g.cs
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton_MarkupCompile.cache
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton_MarkupCompile.lref
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\MainWindow.baml
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton.g.resources
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton.Properties.Resources.resources
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton.csproj.GenerateResource.Cache
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton.exe
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\PeterButton.pdb
+c:\users\brandon\documents\visual studio 2015\Projects\PeterButton\PeterButton\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\PeterButton\PeterButton\obj\Debug\cloud.g.cs
+C:\Users\Brandon\Documents\Visual Studio 2015\Projects\PeterButton\PeterButton\obj\Debug\cloud.baml
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\PeterButton.exe.config
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.exe
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.pdb
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\PeterButton.exe
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\PeterButton.pdb
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\Cloud.g.cs
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\MainWindow.g.cs
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\App.g.cs
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton_MarkupCompile.cache
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton_MarkupCompile.lref
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\Cloud.baml
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\MainWindow.baml
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.g.resources
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.Properties.Resources.resources
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.csproj.GenerateResource.Cache
