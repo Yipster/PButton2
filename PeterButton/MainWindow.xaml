@@ -45,8 +45,8 @@
         </Style>
         <Storyboard x:Key="ClassroomStoryboard" x:Name="ClassroomStoryboard">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ClassroomImg">
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:12" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.5" Value="0.1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
@@ -58,8 +58,12 @@
             </Button.Background>
         </Button>
         <!---<Image Canvas.ZIndex="1"  x:Name="ClassroomImg" Source="empty classroom.jpg" Width="1280" Height="720"/>-->
-        <Button Canvas.ZIndex="2"  Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="" Height="194" Width="411" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="602" Canvas.Left="406">
+        <Button Canvas.ZIndex="2"  Style="{StaticResource MyButtonStyle}"  x:Name="ResetBtn" Content="" Height="194" Width="411" Click="ResetBtn_Click" BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Canvas.Top="602" Canvas.Left="430">
         </Button>
         <Rectangle x:Name="underlay" Fill="#FFFFFEEC" Height="210" Stroke="Black" Canvas.Top="602" Width="1280" Canvas.Left="-3"/>
+        <TextBlock x:Name="textBlock" Height="52" Canvas.Left="55" TextWrapping="Wrap" Text="Good Clouds:" Canvas.Top="618.65" Width="260" FontSize="40" FontFamily="Gautami"/>
+        <TextBlock x:Name="count" Height="58" Canvas.Left="55" TextWrapping="Wrap" Canvas.Top="675.65" Width="208" FontSize="40" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock_Copy" Height="52" Canvas.Left="1009" TextWrapping="Wrap" Text="High Score:" Canvas.Top="617" Width="260" FontSize="40" FontFamily="Gautami"/>
+        <TextBlock x:Name="highscore" Height="58" Canvas.Left="1009" TextWrapping="Wrap" Canvas.Top="674" Width="186" FontSize="40" Text="0" TextAlignment="Center"/>
     </Canvas>
 </Window>
