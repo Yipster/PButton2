@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PeterButton"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
         Title="MainWindow" Height="840px" Width="1280px" WindowStyle="SingleBorderWindow"  ResizeMode="NoResize">
     <Window.Resources>
@@ -51,7 +52,8 @@
         </Storyboard>
     </Window.Resources>
     <Canvas x:Name="Container">
-        <local:GifImage x:Name="Bird" GifSource="C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\Resources\Bird.gif"  Height="289" Width="408" Canvas.Left="862" Canvas.Top="163"/>
+        <!--<local:GifImage x:Name="Bird" GifSource="C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\Resources\Bird.gif"  Height="289" Width="408" Canvas.Left="862" Canvas.Top="163"/>-->
+        <Image gif:ImageBehavior.RepeatBehavior="Forever" gif:ImageBehavior.AnimatedSource="Resources\Bird.gif"  Height="289" Width="408" Canvas.Left="862" Canvas.Top="163"/>
         <Button Canvas.ZIndex="1"  Style="{StaticResource BGStyle}"  x:Name="ClassroomImg" Content="" Height="602" Width="1275.371"  BorderBrush="Black" Foreground="Black" RenderTransformOrigin="0.5,0.5" Click="BGBtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="empty classroom.jpg"></ImageBrush>

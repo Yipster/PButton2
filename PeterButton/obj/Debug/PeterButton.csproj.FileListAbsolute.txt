@@ -36,3 +36,7 @@ C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton_Con
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\WpfAnimatedGif.dll
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\WpfAnimatedGif.xml
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\Resources\thunder.wav
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\PeterButton.exe.manifest
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\PeterButton.application
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.exe.manifest
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.application
