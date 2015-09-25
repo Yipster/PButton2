@@ -35,14 +35,6 @@ namespace PeterButton
             s = sb as Storyboard;
             s.Begin();
 
-            makeCloud(cloud1);
-            helper(cloud2);
-        }
-
-        public void helper(cloud cloud2)
-        {
-            makeCloud(cloud2);
-            makeCloud(cloud3);
         }
 
         //Event: Escape KeyUp causes application to close
@@ -56,7 +48,8 @@ namespace PeterButton
 
         private void ResetBtn_Click(object sender, RoutedEventArgs e)
         {
-            s.Seek(TimeSpan.Zero);
+            cloud cloud = new cloud();
+            makeCloud(cloud);
         }
 
         public void makeCloud(cloud cloud)
@@ -78,7 +71,7 @@ namespace PeterButton
             story.Completed += (s,  eArgs) =>
             {
                 Container.Children.Remove(cloud);
-                makeCloud(cloud);
+                //makeCloud(cloud);
             };
             
             cloud.BeginStoryboard(story);
