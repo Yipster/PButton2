@@ -127,7 +127,18 @@ namespace PeterButton
                 case 8:
                     cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/pc.png"));
                     break;
-                
+                case 9:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/spidercloud.png"));
+                    uri = new Uri(@"../../Resources/thunder.wav", UriKind.Relative);
+                    PlaySound(uri);
+                    s.Seek(TimeSpan.Zero);
+                    break;
+                case 10:
+                    cloud.Img.Source = new BitmapImage(new Uri(@"pack://application:,,,/Resources/celerycloud.png"));
+                    uri = new Uri(@"../../Resources/thunder.wav", UriKind.Relative);
+                    PlaySound(uri);
+                    s.Seek(TimeSpan.Zero);
+                    break;
             } 
         }
 
@@ -141,7 +152,7 @@ namespace PeterButton
             }
             if (i == 2)
             {
-                num = rnd.Next(1, 9);
+                num = rnd.Next(1, 11);
             }
             if (i == 3)
             {
@@ -156,7 +167,7 @@ namespace PeterButton
 
         private void BGBtn_Click(object sender, RoutedEventArgs e)
         {
-            s.Seek(TimeSpan.Zero);
+            //s.Seek(TimeSpan.Zero);
         }
     }
 }

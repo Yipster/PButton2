@@ -35,3 +35,4 @@ C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton.csp
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\obj\Debug\PeterButton_Content.g.cs
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\WpfAnimatedGif.dll
 C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Brandon\Documents\GitHub\PButton2\PeterButton\bin\Debug\Resources\thunder.wav

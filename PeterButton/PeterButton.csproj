@@ -162,8 +162,17 @@
     <Resource Include="Resources\thoughtbubble.png" />
     <Resource Include="Resources\Bird2.gif" />
     <Resource Include="Resources\pc.png" />
+    <Resource Include="Resources\celerycloud.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\spidercloud.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="Resources\Suzuya.wav" />
     <Resource Include="Resources\UX.png" />
+    <Content Include="Resources\thunder.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Yahallo.wav" />
     <Resource Include="Resources\yuicloud.png" />
   </ItemGroup>

@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/suzuya.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/thunder.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/yahallo.wav")]
 
 
