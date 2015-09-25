@@ -137,7 +137,7 @@ namespace PeterButton
             int num = 0;
             if (i == 1)
             {
-                num = rnd.Next(0, 500);
+                num = rnd.Next(0, 400);
             }
             if (i == 2)
             {
@@ -153,6 +153,10 @@ namespace PeterButton
             }
             return num;
         }
-      
+
+        private void BGBtn_Click(object sender, RoutedEventArgs e)
+        {
+            s.Seek(TimeSpan.Zero);
+        }
     }
 }
